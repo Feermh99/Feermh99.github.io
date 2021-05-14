@@ -1,5 +1,6 @@
 function gestionarFicheroXML(xmlDoc){
-	alert(xmlDoc)
+	/*Recuperar la capa vacia*/
+	
 	
 }
 
