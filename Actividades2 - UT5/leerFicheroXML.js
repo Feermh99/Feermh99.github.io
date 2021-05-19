@@ -2,7 +2,7 @@ function gestionarFicheroXML(xmlDoc){
 	/*Recuperar la capa vacia*/
 	let capaVacia = document.querySelector("#ficheroXML")
 	let libros = xmlDoc.querySelectorAll("libro")
-	for(let i=0; i<alumnos.length; i++)
+	for(let i=0; i<libros.length; i++)
 		capaVacia.innerHTML = capaVacia.innerHTML + "<p>" + libros[i].textContent + "</p>"
 	
 }
